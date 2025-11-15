@@ -1,0 +1,26 @@
+
+$python ./colorbot.py
+>>> You: hello
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+>>> Agent:  Hello! Nice to meet you. I can generate a random color or a random integer for you. Which would you like, or should I do both?
+>>> You: color please
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+>>> Agent:  Here's a color: green.
+
+Want another color, or maybe a random number too?
+>>> You: How about a numer?
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+>>> Agent:  Here's a random number: 62. Want another number, or should I pick a random color instead?
+>>> You: And another number, and a color
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+>>> Agent:  Here you go: Number 42, Color green.
+
+Want another pair, or perhaps a color first next time?
+>>> You: Wow
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+>>> Agent:  Nice! Want me to pull a random color or a random number for you? I can fetch either, or do both at the same time if you’d like.
+>>> You: ^C
+
