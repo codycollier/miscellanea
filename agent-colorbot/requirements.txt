@@ -1,3 +1,4 @@
+anthropic
 dotenv
 openai
 openai-agents
